@@ -1,0 +1,33 @@
+body{
+    background:#A1AEB1;
+}
+
+div{
+    text-align:center;
+    margin-top:100px;
+    font-family:"Bangers", serif;
+    font-size:50px;
+}
+
+h1{
+    background:white;
+    width:300px;
+    height:50px;
+    margin-left:275px;
+    margin-top:50px;
+    font-family:"Bangers", serif;
+    font-size:30px;
+    text-align:inline-block;
+}
+
+.btn{
+    height:200px;
+    width:500px;
+    margin-left:275px;
+    margin-top:100px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
