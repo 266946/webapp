@@ -25,8 +25,12 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div>Quote of the day</div>
-        <p>Quote</p>
-        <button type="button">Generate</button>
+        <div class="quote-container">
+            <p class="quote" id="quote-text">"The only way to do great work is to love what you do." - Steve Jobs</p>
+            <p class="author" id="quote-author">Steve Jobs</p>
+            <button onclick="generateQuote()">Generate Quote</button>
+        </div>
+        
         <script src="scripts.js" async defer></script>
     </body>
 </html>

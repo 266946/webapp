@@ -1,5 +1,10 @@
-body{
-    background:#A1AEB1;
+body {
+    font-family:"Bangers", serif;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+    background-color: #A1AEB1;
 }
 
 div{
@@ -7,27 +12,45 @@ div{
     margin-top:100px;
     font-family:"Bangers", serif;
     font-size:50px;
+    color:#1a1a1a;
 }
 
-h1{
-    background:white;
-    width:300px;
-    height:50px;
-    margin-left:275px;
-    margin-top:50px;
-    font-family:"Bangers", serif;
-    font-size:30px;
-    text-align:inline-block;
-}
-
-.btn{
-    height:200px;
-    width:500px;
-    margin-left:275px;
-    margin-top:100px;
-    border: none;
-    color: white;
+.quote-container {
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    padding: 20px;
+    margin-left: 225px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
 }
+
+.quote {
+    font-size: 24px;
+    font-family:"Bangers", serif;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #697475;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0b0b0b;
+}
+
